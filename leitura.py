@@ -1,4 +1,3 @@
-from unicodedata import name
 import pandas 
 import matplotlib.pyplot as plt
 
@@ -33,6 +32,18 @@ def graficoDePizzaPorIdade():
 
 def main():
     print(tabelaDeDados())
+
+    print(informaçãoDeIdadeSexo())
+
+    print(valoresUnicosDeIdades())
+
+    print(inscritosDeCidadesDiferentes())
+
+    print(quantidadeDeInscritosDeCadaIdade())
+
+    print(graficoPorUF())
+
+    print(graficoDePizzaPorIdade())
 
 if __name__ == '__main__':
     main()
